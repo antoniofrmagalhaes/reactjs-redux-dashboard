@@ -36,7 +36,7 @@ Reset Password
 
 Dashboard
 
-![dashboard](https://user-images.githubusercontent.com/49319968/100270241-2757d200-2f2e-11eb-9239-94e84f621e25.png)
+![dashboard](https://user-images.githubusercontent.com/49319968/100270865-0fcd1900-2f2f-11eb-9f34-a971357d7dd3.png)
 
 ## Instalação
 
