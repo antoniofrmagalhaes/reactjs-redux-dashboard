@@ -1,59 +1,57 @@
-This project was bootstrapped with
-[Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
+<h3 align="center">
+  React Redux Dashboard
+</h3>
 
-Runs the app in the development mode.<br /> Open
-[http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h1 align="center">
+    <img alt="reactjs" src="https://user-images.githubusercontent.com/49319968/98042610-3c8f8400-1dfa-11eb-8d83-a6f62ef7442c.png" width="75" />
+    <img alt="typescript" src="https://user-images.githubusercontent.com/49319968/98042676-56c96200-1dfa-11eb-9302-9c9f53df5610.png" width="75" />
+    <img alt="redux" src="https://user-images.githubusercontent.com/49319968/98042092-554b6a00-1df9-11eb-9a29-e2e44839bf6d.png" width="75" />
+    <img alt="styled-components" src="https://user-images.githubusercontent.com/49319968/98042558-27b2f080-1dfa-11eb-8754-60c04e11c61f.png" width="75" />
+</h1>
 
-The page will reload if you make edits.<br /> You will also see any lint errors
-in the console.
+<p>Estrutura basica de um dashboard, feito com ReactJS, Redux, Chakra UI e Styled Components</p>
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br /> See the section
-about
-[running tests](https://facebook.github.io/create-react-app/docs/running-tests)
-for more information.
+<p>
+  <a href="https://reactjs-redux-dashboard.vercel.app" target="_blank" ref="noreferrer"><strong>Demo</strong></a>
+</p>
 
-### `yarn build`
+## Demonstração
 
-Builds the app for production to the `build` folder.<br /> It correctly bundles
-React in production mode and optimizes the build for the best performance.
+Login
 
-The build is minified and the filenames include the hashes.<br /> Your app is
-ready to be deployed!
+![login](https://user-images.githubusercontent.com/49319968/100270285-3b033880-2f2e-11eb-85bb-be5d26161d94.png)
+Request Reset Link
 
-See the section about
-[deployment](https://facebook.github.io/create-react-app/docs/deployment) for
-more information.
+![reset password link](https://user-images.githubusercontent.com/49319968/100270392-6554f600-2f2e-11eb-8888-f73a4418c4e6.png)
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Reset Password
 
-If you aren’t satisfied with the build tool and configuration choices, you can
-`eject` at any time. This command will remove the single build dependency from
-your project.
+![reset password](https://user-images.githubusercontent.com/49319968/100270332-4c4c4500-2f2e-11eb-9b0d-a5aef06770a2.png)
 
-Instead, it will copy all the configuration files and the transitive
-dependencies (webpack, Babel, ESLint, etc) right into your project so you have
-full control over them. All of the commands except `eject` will still work, but
-they will point to the copied scripts so you can tweak them. At this point
-you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for
-small and middle deployments, and you shouldn’t feel obligated to use this
-feature. However we understand that this tool wouldn’t be useful if you couldn’t
-customize it when you are ready for it.
+Dashboard
 
-## Learn More
+![dashboard](https://user-images.githubusercontent.com/49319968/100270241-2757d200-2f2e-11eb-9239-94e84f621e25.png)
 
-You can learn more in the
-[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Instalação
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone este repositório
+```sh
+git clone git@github.com:antoniofrmagalhaes/reactjs-redux-dashboard.git
+```
+Navegue para a pasta recem criada.
+```sh
+cd reactjs-redux-dashboard
+```
+Execute o comando `yarn` ou `npm install` para instalar as dependências.
+
+Depois execute  `yarn start` ou `npm run start` para iniciar a aplicação em modo desenvolvimento.
+
+## License
+
+This project is under MIT license. See the file [LICENSE](LICENSE.md) for more details.
