@@ -1,17 +1,6 @@
-import styled, { keyframes } from 'styled-components'
+import styled from 'styled-components'
 import { FormControl as ChakraFormControl } from '@chakra-ui/react'
 import { Form as UnformForm } from '@unform/web'
-
-const fadeUp = keyframes`
-  0% {
-    transform: translateY(70px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-`
 
 export const Container = styled.div`
   position: relative;

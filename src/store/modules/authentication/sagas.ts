@@ -37,8 +37,9 @@ export function* sendForgotPasswordEmail({
   payload: { email }
 }: ReturnType<typeof signInRequest>) {
   try {
-    yield call(api.post, '/password/forgot', { email })
-    toast.info(`Email sent to ${email}. Please, check your mailbox.`)
+    const response = yield call(api.post, '/password/forgot', { email })
+    toast.info(`Email sent to ${email}. Please, check the console log.`)
+    console.log(response.data)
     yield put(forgotPasswordEmailSuccess())
   } catch (error) {
     toast.error('Failed to send recovery password email.')
